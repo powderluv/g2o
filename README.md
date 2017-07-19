@@ -1,5 +1,19 @@
-g2o - General Graph Optimization
-================================
+g2o - General Graph Optimization (Modified)
+===========================================
+
+### Modifications
+
+ - types_six_dof_expmap 
+    - Implemented
+        - EdgeSE3ProjectXYZ
+        - EdgeSE3ProjectXYZOnlyPose
+        - EdgeStereoSE3ProjectXYZ
+        - EdgeStereoSE3ProjectXYZOnlyPose
+ - types_seven_dof_expmap 
+    - Implemented
+        - EdgeInverseSim3ProjectXYZ
+    - Modified
+        - VertexSim3Expmap
 
 Linux: [![Build Status](https://travis-ci.org/RainerKuemmerle/g2o.svg?branch=master)](https://travis-ci.org/RainerKuemmerle/g2o)
 Windows: [![Build status](https://ci.appveyor.com/api/projects/status/9w0cpb9krc6t4nt7/branch/master?svg=true)](https://ci.appveyor.com/project/RainerKuemmerle/g2o/branch/master)
